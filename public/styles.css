@@ -1,0 +1,33 @@
+body {
+    background-color: #E8ECEF;
+}
+
+.centered {
+    text-align: center;
+}
+
+i {
+    font-size: 5rem;
+}
+
+.btn-outline-dark:hover {
+    color: black;
+    background-color: rgba(199, 199, 199, 0.649);
+}
+
+.padding {
+    margin-top: 50px;
+    margin-left: 10%;
+}
+
+.secret {
+    font-size: 2rem;
+    color: white;
+    background-color: black;
+}
+
+@media (max-width: 768px) {
+    .padding {
+        margin: 0;
+    }
+}
