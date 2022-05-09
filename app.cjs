@@ -16,6 +16,7 @@ userSchema.plugin(encrypt, { secret: process.env.SECRET, encryptedFields: ['pass
 
 const User = new mongoose.model('User', userSchema);
 
+
 const app = express();
 
 app.use(bodyParser.urlencoded({ extended: true }));
