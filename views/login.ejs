@@ -8,16 +8,18 @@
                     <form action="/login" method="post">
                         <div class="mb-3">
                             <label for="exampleFormControlInput1" class="form-label">Email</label>
-                            <input type="email" class="form-control" id="exampleFormControlInput1" name="username">
+                            <input type="email" class="form-control" id="exampleFormControlInput1" name="username" placeholder="Type your email example">
                         </div>
                         <div class="mb-3">
                             <label for="exampleFormControlInput1" class="form-label">password</label>
-                            <input type="password" class="form-control" id="exampleFormControlInput1" name="password">
+                            <input type="password" class="form-control" id="exampleFormControlInput1" name="password" placeholder="Type your password example">
                         </div>
                         <button class="btn btn-dark">Login</button>
                     </form>
                 </div>
             </div>
+            <a class="btn btn-block btn-dark google" href="/auth/google" role="button"> <i class="fa-brands fa-google"></i> Sign Up with Google</a>
+
         </div>
     </div>
     <%-include("partials/footer")%>

@@ -26,6 +26,16 @@ i {
     background-color: black;
 }
 
+.google {
+    margin-top: 30px;
+    height: 40px;
+}
+
+.google i {
+    font-size: 1rem;
+    margin-right: 20px;
+}
+
 @media (max-width: 768px) {
     .padding {
         margin: 0;
